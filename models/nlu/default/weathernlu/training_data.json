@@ -1,228 +1,336 @@
 {
   "rasa_nlu_data": {
+    "entity_synonyms": [],
     "common_examples": [
       {
-        "text": "Hello", 
+        "text": "Hello",
         "intent": "greet"
-      }, 
+      },
       {
-        "text": "goodbye", 
+        "text": "goodbye",
         "intent": "goodbye"
-      }, 
+      },
       {
+        "text": "What's the weather in Berlin at the moment?",
+        "intent": "inform",
         "entities": [
           {
-            "start": 22, 
-            "end": 28, 
-            "value": "Berlin", 
+            "end": 28,
+            "value": "Berlin",
+            "start": 22,
             "entity": "location"
           }
-        ], 
-        "intent": "inform", 
-        "text": "What's the weather in Berlin at the moment?"
-      }, 
+        ]
+      },
       {
-        "text": "hey", 
+        "text": "hey",
         "intent": "greet"
-      }, 
+      },
       {
-        "text": "hello", 
+        "text": "hello",
         "intent": "greet"
-      }, 
+      },
       {
-        "text": "hi", 
+        "text": "hi",
         "intent": "greet"
-      }, 
+      },
       {
-        "text": "heya", 
+        "text": "heya",
         "intent": "greet"
-      }, 
+      },
       {
-        "text": "howdy", 
+        "text": "howdy",
         "intent": "greet"
-      }, 
+      },
       {
-        "text": "hey there", 
+        "text": "hey there",
         "intent": "greet"
-      }, 
+      },
       {
-        "text": "bye", 
+        "text": "bye",
         "intent": "goodbye"
-      }, 
+      },
       {
-        "text": "goodbye", 
+        "text": "goodbye",
         "intent": "goodbye"
-      }, 
+      },
       {
-        "text": "bye bye", 
+        "text": "bye bye",
         "intent": "goodbye"
-      }, 
+      },
       {
-        "text": "see ya", 
+        "text": "see ya",
         "intent": "goodbye"
-      }, 
+      },
       {
-        "text": "see you later", 
+        "text": "see you later",
         "intent": "goodbye"
-      }, 
+      },
       {
-        "text": "What's the weather today?", 
+        "text": "What's the weather today?",
         "intent": "inform"
-      }, 
+      },
       {
+        "text": "What's the weather in London today?",
+        "intent": "inform",
         "entities": [
           {
-            "start": 22, 
-            "end": 28, 
-            "value": "London", 
+            "end": 28,
+            "value": "London",
+            "start": 22,
             "entity": "location"
           }
-        ], 
-        "intent": "inform", 
-        "text": "What's the weather in London today?"
-      }, 
+        ]
+      },
       {
+        "text": "Show me what's the weather in Paris",
+        "intent": "inform",
         "entities": [
           {
-            "start": 30, 
-            "end": 35, 
-            "value": "Paris", 
+            "end": 35,
+            "value": "Paris",
+            "start": 30,
             "entity": "location"
           }
-        ], 
-        "intent": "inform", 
-        "text": "Show me what's the weather in Paris"
-      }, 
+        ]
+      },
       {
+        "text": "I wonder what is the weather in Vilnius right now?",
+        "intent": "inform",
         "entities": [
           {
-            "start": 32, 
-            "end": 39, 
-            "value": "Vilnius", 
+            "end": 39,
+            "value": "Vilnius",
+            "start": 32,
             "entity": "location"
           }
-        ], 
-        "intent": "inform", 
-        "text": "I wonder what is the weather in Vilnius right now?"
-      }, 
+        ]
+      },
       {
-        "text": "what is the weather?", 
+        "text": "what is the weather?",
         "intent": "inform"
-      }, 
+      },
       {
-        "text": "Tell me the weather", 
+        "text": "Tell me the weather",
         "intent": "inform"
-      }, 
+      },
       {
+        "text": "Is the weather nice in Barcelona today?",
+        "intent": "inform",
         "entities": [
           {
-            "start": 23, 
-            "end": 32, 
-            "value": "Barcelona", 
+            "end": 32,
+            "value": "Barcelona",
+            "start": 23,
             "entity": "location"
           }
-        ], 
-        "intent": "inform", 
-        "text": "Is the weather nice in Barcelona today?"
-      }, 
+        ]
+      },
       {
+        "text": "I am going to London today and I wonder what is the weather out there?",
+        "intent": "inform",
         "entities": [
           {
-            "start": 14, 
-            "end": 20, 
-            "value": "London", 
+            "end": 20,
+            "value": "London",
+            "start": 14,
             "entity": "location"
           }
-        ], 
-        "intent": "inform", 
-        "text": "I am going to London today and I wonder what is the weather out there?"
-      }, 
+        ]
+      },
       {
+        "text": "I am planning my trip to Amsterdam. What is the weather out there?",
+        "intent": "inform",
         "entities": [
           {
-            "start": 25, 
-            "end": 34, 
-            "value": "Amsterdam", 
+            "end": 34,
+            "value": "Amsterdam",
+            "start": 25,
             "entity": "location"
           }
-        ], 
-        "intent": "inform", 
-        "text": "I am planning my trip to Amsterdam. What is the weather out there?"
-      }, 
+        ]
+      },
       {
+        "text": "Show me the weather in Dublin, please",
+        "intent": "inform",
         "entities": [
           {
-            "start": 23, 
-            "end": 29, 
-            "value": "Dublin", 
+            "end": 29,
+            "value": "Dublin",
+            "start": 23,
             "entity": "location"
           }
-        ], 
-        "intent": "inform", 
-        "text": "Show me the weather in Dublin, please"
-      }, 
+        ]
+      },
       {
+        "text": "in London",
+        "intent": "inform",
         "entities": [
           {
-            "start": 3, 
-            "end": 9, 
-            "value": "London", 
+            "end": 9,
+            "value": "London",
+            "start": 3,
             "entity": "location"
           }
-        ], 
-        "intent": "inform", 
-        "text": "in London"
-      }, 
+        ]
+      },
       {
+        "text": "Lithuania",
+        "intent": "inform",
         "entities": [
           {
-            "start": 0, 
-            "end": 9, 
-            "value": "Lithuania", 
+            "end": 9,
+            "value": "Lithuania",
+            "start": 0,
             "entity": "location"
           }
-        ], 
-        "intent": "inform", 
-        "text": "Lithuania"
-      }, 
+        ]
+      },
       {
+        "text": "Oh, sorry, in Italy",
+        "intent": "inform",
         "entities": [
           {
-            "start": 14, 
-            "end": 19, 
-            "value": "Italy", 
+            "end": 19,
+            "value": "Italy",
+            "start": 14,
             "entity": "location"
           }
-        ], 
-        "intent": "inform", 
-        "text": "Oh, sorry, in Italy"
-      }, 
+        ]
+      },
       {
+        "text": "Tell me the weather in Vilnius",
+        "intent": "inform",
         "entities": [
           {
-            "start": 23, 
-            "end": 30, 
-            "value": "Vilnius", 
+            "end": 30,
+            "value": "Vilnius",
+            "start": 23,
             "entity": "location"
           }
-        ], 
-        "intent": "inform", 
-        "text": "Tell me the weather in Vilnius"
-      }, 
+        ]
+      },
       {
+        "text": "The weather condition in Italy",
+        "intent": "inform",
         "entities": [
           {
-            "start": 25, 
-            "end": 30, 
-            "value": "Italy", 
+            "end": 30,
+            "value": "Italy",
+            "start": 25,
             "entity": "location"
           }
-        ], 
-        "intent": "inform", 
-        "text": "The weather condition in Italy"
+        ]
+      },
+      {
+        "text": "I feel bad",
+        "intent": "inform",
+        "entities": [
+          {
+            "end": 10,
+            "value": "bad",
+            "start": 7,
+            "entity": "mood"
+          }
+        ]
+      },
+      {
+        "text": "I feel happy",
+        "intent": "inform",
+        "entities": [
+          {
+            "end": 12,
+            "value": "happy",
+            "start": 7,
+            "entity": "mood"
+          }
+        ]
+      },
+      {
+        "text": "I don't want to work today",
+        "intent": "inform",
+        "entities": [
+          {
+            "end": 20,
+            "value": "don't want to work",
+            "start": 2,
+            "entity": "mood"
+          }
+        ]
+      },
+      {
+        "text": "I will do my work today",
+        "intent": "inform",
+        "entities": [
+          {
+            "end": 17,
+            "value": "I will do my work",
+            "start": 0,
+            "entity": "information"
+          }
+        ]
+      },
+      {
+        "text": "He cheated, it is awful",
+        "intent": "inform",
+        "entities": [
+          {
+            "end": 10,
+            "value": "He cheated",
+            "start": 0,
+            "entity": "information"
+          },
+          {
+            "end": 23,
+            "value": "awful",
+            "start": 18,
+            "entity": "adjective"
+          }
+        ]
+      },
+      {
+        "text": "I'm so sad today",
+        "intent": "inform",
+        "entities": [
+          {
+            "end": 10,
+            "value": "sad",
+            "start": 7,
+            "entity": "mood"
+          }
+        ]
+      },
+      {
+        "text": "This work was horrible",
+        "intent": "inform",
+        "entities": [
+          {
+            "end": 22,
+            "value": "horrible",
+            "start": 14,
+            "entity": "adjective"
+          }
+        ]
+      },
+      {
+        "text": "I think I won't pass",
+        "intent": "inform",
+        "entities": [
+          {
+            "end": 20,
+            "value": "I won't pass",
+            "start": 8,
+            "entity": "information"
+          },
+          {
+            "end": 20,
+            "value": "think I won't pass",
+            "start": 2,
+            "entity": "mood"
+          }
+        ]
       }
-    ], 
-    "entity_synonyms": [], 
+    ],
     "regex_features": []
   }
 }

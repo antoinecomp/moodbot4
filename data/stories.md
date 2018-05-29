@@ -1,91 +1,372 @@
-## Generated Story 3320800183399695936
-* greet
-    - utter_greet
-* inform
-    - utter_ask_location
-* inform{"location": "italy"}
+## Generated Story -1886119115731835946
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 3208960438834542099
+    - action_weather
     - slot{"location": "italy"}
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 3270649729708097564
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -1886119115731835946
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 3208960438834542099
     - action_weather
     - slot{"location": "italy"}
 * goodbye
     - utter_goodbye
     - export
-## Generated Story -3351152636827275381
+## Generated Story -1886119115731835946
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 3208960438834542099
+    - action_weather
+    - slot{"location": "italy"}
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 3270649729708097564
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 8037399301564676754
+    - action_weather
+    - slot{"location": "italy"}
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 8037399301564676754
+    - action_weather
+    - slot{"location": "italy"}
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 8037399301564676754
+    - action_weather
+    - slot{"location": "italy"}
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 8037399301564676754
+    - action_weather
+    - slot{"location": "italy"}
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -135236278849981216
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 1985063322887099039
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 7568482240835814446
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -8237383293008302978
+    - action_weather
+    - slot{"location": "italy"}
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 7568482240835814446
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 7568482240835814446
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 7568482240835814446
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 4306803203830770808
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 4306803203830770808
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 4306803203830770808
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 4306803203830770808
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 4306803203830770808
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 7568482240835814446
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -8237383293008302978
+    - action_weather
+    - slot{"location": "italy"}
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 7568482240835814446
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 7568482240835814446
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 7568482240835814446
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 4306803203830770808
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 4306803203830770808
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 4306803203830770808
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 4306803203830770808
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 4306803203830770808
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 7568482240835814446
+    - slot{"location": "London"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -8237383293008302978
+    - action_weather
+    - slot{"location": "italy"}
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story 7107923113165709966
 * greet
     - utter_greet
-* inform[location=London]
-    - slot{"location": "London"}
-    - action_weather
-* goodbye
-    - utter_goodbye
     - export
-## Generated Story 8921121480760034253
+## Generated Story -2666170229919054264
 * greet
     - utter_greet
-* inform
-    - utter_ask_location
-* inform[location=London]
-    - slot{"location": "London"}
+* inform{"location": "paris"}
+    - slot{"location": "paris"}
     - action_weather
-* goodbye
-    - utter_goodbye
+* inform{"mood": "sad"}
+    - slot{"mood": "sad"}
+    - utter_sadness
     - export
-## Generated Story -5208991511085841103
-    - slot{"location": "London"}
-    - action_weather
-* goodbye
-    - utter_goodbye
-    - export
-## Generated Story -5208991511085841103
-    - slot{"location": "London"}
-    - action_weather
-* goodbye
-    - utter_goodbye
-    - export
-## story_001
-* greet
-   - utter_greet
-* inform
-   - utter_ask_location
-* inform[location=London]
-   - slot{"location": "London"}
-   - action_weather
-* goodbye
-   - utter_goodbye
-## story_002
-* greet
-   - utter_greet
-* inform[location=Paris]
-   - slot{"location": "Paris"}
-   - action_weather
-* goodbye
-   - utter_goodbye 
-## story_003
-* greet
-   - utter_greet
-* inform
-   - utter_ask_location
-* inform[location=Vilnius]
-   - slot{"location": "Vilnius"}
-   - action_weather
-* goodbye
-   - utter_goodbye
-## story_004
-* greet
-   - utter_greet
-* inform[location=Italy]
-   - slot{"location": "Italy"}
-   - action_weather
-* goodbye
-   - utter_goodbye 
-## story_005
-* greet
-   - utter_greet
-* inform
-   - utter_ask_location
-* inform[location=Lithuania]
-   - slot{"location": "Lithuania"}
-   - action_weather
-* goodbye
-   - utter_goodbye
+
 

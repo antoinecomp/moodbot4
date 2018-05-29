@@ -16,14 +16,14 @@ from rasa_core.interpreter import RasaNLUInterpreter
 logger = logging.getLogger(__name__)
 
 # training the final model
-def train_dialogue(domain_file = 'weather_domain.yml',
+def train_dialogue(domain_file = 'mood_domain.yml',
 					model_path = './models/dialogue',
 					training_data_file = './data/stories.md'):
 
 	agent = Agent(domain_file,policies = [MemoizationPolicy(),KerasPolicy()])
 	
 	agent.train(training_data_file,
-				max_history = 3,
+				# max_history = 3, not supported anymore
 				epochs=300,
 				batch_size = 50,
 				validation_split = 0.2,

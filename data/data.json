@@ -245,7 +245,7 @@
             "start": 7,
             "end": 10,
             "value": "bad",
-            "entity": "sadness"
+            "entity": "mood"
           }
         ]
       },
@@ -257,7 +257,91 @@
             "start": 7,
             "end": 12,
             "value": "happy",
-            "entity": "happiness"
+            "entity": "mood"
+          }
+        ]
+      },
+      {
+        "text": "I don't want to work today",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 2,
+            "end": 20,
+            "value": "don't want to work",
+            "entity": "mood"
+          }
+        ]
+      },
+      {
+        "text": "I will do my work today",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "I will do my work",
+            "entity": "information"
+          }
+        ]
+      },
+      {
+        "text": "He cheated, it is awful",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "He cheated",
+            "entity": "information"
+          },
+          {
+            "start": 18,
+            "end": 23,
+            "value": "awful",
+            "entity": "adjective"
+          }
+        ]
+      },
+      {
+        "text": "I'm so sad today",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "sad",
+            "entity": "mood"
+          }
+        ]
+      },
+      {
+        "text": "This work was horrible",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "horrible",
+            "entity": "adjective"
+          }
+        ]
+      },
+      {
+        "text": "I think I won't pass",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "I won't pass",
+            "entity": "information"
+          },
+          {
+            "start": 2,
+            "end": 20,
+            "value": "think I won't pass",
+            "entity": "mood"
           }
         ]
       }

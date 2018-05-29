@@ -33,4 +33,11 @@ class ActionWeather(Action):
 
 		dispatcher.utter_message(response)
 		return[SlotSet('location',loc)]
+
+class ActionMood(Action):
+	def name(self):
+		return 'action_mood'
+
+	def run (self,dispatcher,tracker,domain):
+		return
 		 

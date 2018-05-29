@@ -1,41 +1,26 @@
 slots:
   location:
     type: text
+  mood:
+    type: text
+  information:
+    type: text
+  adjective:
+    type: text
 
 
 intents:
- - joy
- - fear
- - anger
- - sadness
- - disgust
- - shame
- - guilt
  - greet
  - goodbye
  - inform
 
-
 entities:
  - location
+ - mood
+ - information
+ - adjective
 
 templates:
-  utter_joy:
-    - 'That so cool !'
-  utter_fear:
-    - 'Don't be afraid'
-  utter_anger:
-    - 'Relax'
-    - You should take a break'
-  utter_sadness:
-    - 'Hey :) Don't be sad'
-    - 'Tomorrow will be another days' 
-  utter_disgust:
-    - 'Yeah, things are disgusting sometimes, forget about it'
-  utter_shame:
-    - 'Don't be ashamed, I believe in you'
-  utter_guilt:
-    - 'You shouldn't fee guilty, you should rather be proud'
   utter_greet:
     - 'Hello! How can I help?'
   utter_goodbye:
@@ -43,9 +28,27 @@ templates:
     - 'Bye bye :('
   utter_ask_location:
     - 'In what location?'
+  utter_joy:
+    - 'Am so happy for you'
+  utter_fear:
+    - 'you shouldn be afraid'
+  utter_anger:
+    - 'Calm down, everything gonna be alright'
+  utter_sadness:
+    - 'be a tough guy'
+  utter_disgust:
+    - 'I understand, this is disgusting, we should get over it'
+  utter_shame:
+    - 'Ridicule does not kill'
+  utter_guilt:
+    - 'You must not feel guilty, feel proud'
 
 
 actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_ask_location
+ - actions.ActionWeather
  - utter_joy
  - utter_fear
  - utter_anger
@@ -53,4 +56,3 @@ actions:
  - utter_disgust
  - utter_shame
  - utter_guilt
- - actions.ActionWeather

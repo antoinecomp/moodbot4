@@ -1,8 +1,15 @@
 {
-  "features": [
+  "states": [
     "intent_greet",
     "intent_goodbye",
     "intent_inform",
+    "intent_joy",
+    "intent_fear",
+    "intent_anger",
+    "intent_sadness",
+    "intent_disgust",
+    "intent_shame",
+    "intent_guilt",
     "entity_location",
     "slot_location_0",
     "prev_action_listen",
@@ -10,6 +17,13 @@
     "prev_utter_greet",
     "prev_utter_goodbye",
     "prev_utter_ask_location",
-    "prev_action_weather"
+    "prev_action_weather",
+    "prev_utter_joy",
+    "prev_utter_fear",
+    "prev_utter_anger",
+    "prev_utter_sadness",
+    "prev_utter_disgust",
+    "prev_utter_shame",
+    "prev_utter_guilt"
   ]
 }
