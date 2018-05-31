@@ -8,17 +8,32 @@ slots:
   adjective:
     type: text
 
-
+# intention the bot is able to recognize from the sentences
 intents:
  - greet
  - goodbye
  - inform
 
+# entities he may be able to extract
 entities:
  - location
  - mood
  - information
  - adjective
+
+# actions the bot can take
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_ask_location
+ - actions.ActionWeather
+ - utter_joy
+ - utter_fear
+ - utter_anger
+ - utter_sadness
+ - utter_disgust
+ - utter_shame
+ - utter_guilt
 
 templates:
   utter_greet:
@@ -42,17 +57,3 @@ templates:
     - 'Ridicule does not kill'
   utter_guilt:
     - 'You must not feel guilty, feel proud'
-
-
-actions:
- - utter_greet
- - utter_goodbye
- - utter_ask_location
- - actions.ActionWeather
- - utter_joy
- - utter_fear
- - utter_anger
- - utter_sadness
- - utter_disgust
- - utter_shame
- - utter_guilt

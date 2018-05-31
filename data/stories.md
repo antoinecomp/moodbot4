@@ -368,5 +368,41 @@
     - slot{"mood": "sad"}
     - utter_sadness
     - export
+## Generated Story 01
+* inform{"mood": "sad"}
+    - slot{"mood": "sad"}
+    - utter_sadness
+## Generated Story -2666170229919054264
+* greet
+    - utter_greet
+* inform{"location": "paris"}
+    - slot{"location": "paris"}
+    - action_weather
+* inform{"mood": "sad"}
+    - slot{"mood": "sad"}
+    - utter_sadness
+    - export
+
+## Generated Story -574806734130114094
+* greet
+    - utter_greet
+* inform{"mood": "sad"}
+    - slot{"mood": "sad"}
+    - utter_sadness
+* inform
+* inform{"location": "paris"}
+    - slot{"location": "paris"}
+    - action_weather
+    - export
+
+## Generated Story 6096239446030032777
+* greet
+    - utter_greet
+* inform{"location": "toulon"}
+    - slot{"location": "toulon"}
+    - action_weather
+    - slot{"location": "toulon"}
+    - export
+
 
 

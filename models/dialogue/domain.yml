@@ -27,19 +27,24 @@ config:
   store_entities_as_slots: true
 entities:
 - location
+- mood
+- information
+- adjective
 intents:
 - greet
 - goodbye
 - inform
-- joy
-- fear
-- anger
-- sadness
-- disgust
-- shame
-- guilt
 slots:
+  adjective:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  information:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  mood:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
