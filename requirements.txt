@@ -98,7 +98,7 @@ thinc==6.10.2
 toolz==0.9.0
 tqdm==4.11.2
 twilio==6.14.3
-Twisted==18.4.0
+Twisted==22.2.0
 typing==3.5.3.0
 tzlocal==1.5.1
 ujson==1.35
