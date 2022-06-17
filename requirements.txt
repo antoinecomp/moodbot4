@@ -57,7 +57,7 @@ msgpack-numpy==0.4.1
 msgpack-python==0.5.6
 murmurhash==0.28.0
 networkx==1.11
-numpy==1.13.1
+numpy==1.21.0
 packaging==17.1
 pandoc==1.0.0b2
 pathlib==1.0.1
